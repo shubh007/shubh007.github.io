@@ -1,12 +1,20 @@
 :root {
     --normalfontsize: 14px;
   }
+  @media print {
+    body, page {
+      margin: 0;
+      box-shadow: 0;
+    }
+  }
 .resumeArea{
     font-size: var(--normalfontsize);
     font-family: Montserrat-SemiBold;
     position: relative;
     height: 95%;
     width: 95%;
+    top: 2.5%;
+    left: 2.5%;
 }
 .header{
     width: 100%;
