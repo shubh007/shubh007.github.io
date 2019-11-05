@@ -42,17 +42,25 @@
     font-family: "Montserrat-Medium";
     src: url(../fonts/Montserrat/Montserrat-Medium.ttf);
 }
-.container-flex {
-    background: rgb(204,204,204);
-    padding: 1cm;
-}
-page {
-    background-color: var(--light);
+:root {
+    --normalfontsize: 14px;
+    --a4width:21cm;
+    --a4height:29.7cm;
+  }
+body{
+    width:var(--a4width);
+    height: var(--a4height);
+    margin: 30mm 45mm 30mm 45mm; 
     display: block;
     margin: 0 auto;
     box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
-  }
-  page[size="A4"] {  
-    width: 21cm;
-    height: 29.7cm; 
-  }
+    background: rgb(204,204,204);
+} 
+page {
+    background-color: var(--light);
+    display: flex;
+}
+page[size="A4"] {  
+   width:var(--a4width);
+    height: var(--a4height);
+}

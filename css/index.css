@@ -1,12 +1,4 @@
-:root {
-    --normalfontsize: 14px;
-  }
-  @media print {
-    body, page {
-      margin: 0;
-      box-shadow: 0;
-    }
-  }
+
 .resumeArea{
     font-size: var(--normalfontsize);
     font-family: Montserrat-SemiBold;
