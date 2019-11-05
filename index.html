@@ -29,7 +29,24 @@
   <body ng-app="myApp">
   <div ng-controller="myCtrl" class="container-flex">
    <div class="container-A4">
-	{{helloWorld}}
+  <div class="resumeArea">
+    <div class="header">
+      <div class="addressArea">
+        <div class="cityState" ng-bind="cityState"></div>
+        <div class="countryPin" ng-bind="countryPin"></div>
+      </div>
+      <div class="nameArea" >
+        <div class="nameDisplay" ng-bind="name"></div>
+        <div class="mobileEmail" ng-bind="mobileEmail"></div>
+      </div>
+      <div class="contactArea">
+        <div class="jsfiedleLink" ng-bind="jsfiedleLink"></div>
+        <div class="githubLink" ng-bind="githubLink"></div>
+        <div class="linkedIn" ng-bind="linkedIn"></div>
+      </div>
+    </div>
+  </div>
+  
     </div>
   </div>
   </body>

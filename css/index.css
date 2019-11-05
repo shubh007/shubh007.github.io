@@ -1,1 +1,100 @@
+:root {
+    --normalfontsize: 14px;
+  }
+.resumeArea{
+    font-size: var(--normalfontsize);
+    font-family: Montserrat-SemiBold;
+    position: relative;
+    height: 95%;
+    width: 95%;
+}
+.header{
+    width: 100%;
+    position: relative;
+    height: 7%;
+    display: flex;
+    
+}
+.addressArea{
+    width: 25%;
+    position: relative;
+    height: 100%;
+}
+.nameArea{
+    width: 50%;
+    position: relative;
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.contactArea{
+    width: 25%;
+    right: 0%;
+    position: absolute;
+    height: 100%;
+}
 
+.cityState{
+    position: relative;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 30%;
+}
+.countryPin{
+    position: relative;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 30%;
+}
+.nameDisplay{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 41px;
+    font-family: Montserrat-Medium;
+    height: 80%;
+   
+}
+.mobileEmail{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.jsfiedleLink{
+    position: relative;
+    height: calc(80% / 3);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 20%;
+}
+.githubLink{
+    position: relative;
+    height: calc(80% / 3);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 20%;
+}
+.linkedIn{
+    position: relative;
+    height: calc(80% / 3);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 20%;
+}
